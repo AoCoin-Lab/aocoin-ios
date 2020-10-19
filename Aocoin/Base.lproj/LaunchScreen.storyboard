@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="emo-sX-Qge">
+                                <rect key="frame" x="157" y="762" width="100" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creatWalletLogo" translatesAutoresizingMaskIntoConstraints="NO" id="F5W-7u-Low">
+                                        <rect key="frame" x="0.0" y="3" width="14" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="14" id="DmQ-a3-O5E"/>
+                                            <constraint firstAttribute="width" constant="14" id="x4P-mo-50a"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AOCOIN.IO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLP-En-ySW">
+                                        <rect key="frame" x="14" y="0.0" width="86" height="20"/>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                                        <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fLP-En-ySW" firstAttribute="centerY" secondItem="emo-sX-Qge" secondAttribute="centerY" id="K0j-OV-EDE"/>
+                                    <constraint firstAttribute="width" constant="100" id="OEK-xA-Vje"/>
+                                    <constraint firstItem="F5W-7u-Low" firstAttribute="centerY" secondItem="emo-sX-Qge" secondAttribute="centerY" id="UdX-Yr-PRZ"/>
+                                    <constraint firstAttribute="height" constant="20" id="aDL-wd-DNS"/>
+                                    <constraint firstAttribute="trailing" secondItem="fLP-En-ySW" secondAttribute="trailing" id="cOc-jr-1Zx"/>
+                                    <constraint firstItem="fLP-En-ySW" firstAttribute="leading" secondItem="F5W-7u-Low" secondAttribute="trailing" id="i8B-KQ-6PA"/>
+                                    <constraint firstItem="F5W-7u-Low" firstAttribute="leading" secondItem="emo-sX-Qge" secondAttribute="leading" id="tzi-gD-Ete"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.066666666669999999" green="0.08235294118" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="emo-sX-Qge" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UFq-e5-YYu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="emo-sX-Qge" secondAttribute="bottom" constant="80" id="ghL-Qo-re0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217" y="327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="creatWalletLogo" width="134" height="139"/>
+    </resources>
+</document>

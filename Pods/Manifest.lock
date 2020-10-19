@@ -1,0 +1,36 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.3.1)
+  - Realm (3.14.2):
+    - Realm/Headers (= 3.14.2)
+  - Realm/Headers (3.14.2)
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh
+  - Realm (~> 3.14.1)
+  - RTRootNavigationController
+  - WebViewJavascriptBridge (~> 6.0.3)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
+    - MJRefresh
+    - Realm
+    - RTRootNavigationController
+    - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Realm: 179c6706e3a49dbfe112e572fd3c03d3169bea35
+  RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 303716e98eae2e9a8ae260a8a799744640882b6c
+
+COCOAPODS: 1.8.4

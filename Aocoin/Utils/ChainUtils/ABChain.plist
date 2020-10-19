@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Polkadot</key>
+	<dict>
+		<key>name</key>
+		<string>Polkadot</string>
+		<key>describe</key>
+		<string>Polkadot</string>
+		<key>imageNormal</key>
+		<string>Polkadot_default</string>
+		<key>imageSelected</key>
+		<string>Polkadot_selected</string>
+		<key>ss58Format</key>
+		<integer>0</integer>
+		<key>endpoint</key>
+		<array>
+			<string>wss://rpc.polkadot.io</string>
+		</array>
+	</dict>
+	<key>Kusama</key>
+	<dict>
+		<key>name</key>
+		<string>Kusama</string>
+		<key>describe</key>
+		<string>Kusama</string>
+		<key>imageNormal</key>
+		<string>Kusama_default</string>
+		<key>imageSelected</key>
+		<string>Kusama_selected</string>
+		<key>ss58Format</key>
+		<integer>2</integer>
+		<key>endpoint</key>
+		<array>
+			<string>wss://kusama-rpc.polkadot.io/</string>
+		</array>
+	</dict>
+	<key>Kulupu</key>
+	<dict>
+		<key>name</key>
+		<string>Kulupu</string>
+		<key>describe</key>
+		<string>Kulupu</string>
+		<key>imageNormal</key>
+		<string>Kulupu_default</string>
+		<key>imageSelected</key>
+		<string>Kulupu_selected</string>
+		<key>ss58Format</key>
+		<integer>16</integer>
+		<key>endpoint</key>
+		<array>
+			<string>wss://rpc.kulupu.corepaper.org/ws</string>
+		</array>
+	</dict>
+</dict>
+</plist>
